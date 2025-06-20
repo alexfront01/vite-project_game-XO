@@ -1,0 +1,44 @@
+.container-button {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button {
+  border-radius: 8px;
+  padding: 0.6em 1.2em;
+  font-size: 2em;
+  border: none;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.button:hover {
+  background-color: #333333;
+}
+.button:focus,
+.button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.button-start {
+  margin: 20px;
+  font-size: 2em;
+  padding: 0.6em 1.2em;
+  background-color: #1a1a1a;
+  border: none;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.button-start:hover {
+  background-color: #333333;
+}
